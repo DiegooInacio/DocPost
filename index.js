@@ -8,7 +8,7 @@ setInterval(function () {
 }, 3500);
 
 const controls = document.querySelectorAll(".control");
-let currentCard = 0;
+let currentCard = 1;
 const cards = document.querySelectorAll(".card");
 const maxCards = cards.length;
 
@@ -34,53 +34,17 @@ controls.forEach((control) => {
     cards[currentCard].scrollIntoView({
       inline: "center",
       behavior: "smooth",
+      block: "nearest",
     });
 
     cards[currentCard].classList.add("current-card");
   });
 });
 
-// const elementosCard = document.querySelectorAll(".card");
+const elementosDuvida = document.querySelectorAll(".faq");
 
-// elementosCard.forEach(function (card) {
-//   card.addEventListener("click", function () {
-//     card.classList.add("ativo");
-//   });
-// });
-
-// let slideIndex = 0;
-// showSlides(slideIndex);
-
-// function changeSlide(n) {
-//   showSlides((slideIndex += n));
-// }
-
-// function showSlides(n) {
-//   const slides = document.getElementsByClassName("slide");
-
-//   if (n >= slides.length) {
-//     slideIndex = 0;
-//   } else if (n < 0) {
-//     slideIndex = slides.length - 1;
-//   }
-// }
-
-// const section = document.querySelectorAll(".navigation-auto");
-// const buttons = document.querySelectorAll("input");
-// if (section.length && buttons.length) {
-//   section[0].classList.add("active");
-//   buttons[0].classList.add("active");
-
-//   function activeSection(index) {
-//     section.forEach((div) => div.classList.remove("active"));
-//     section[index].classList.add("active");
-
-//     buttons.forEach((button) => button.classList.remove("active"));
-//     buttons[index].classList.add("active");
-//   }
-//   buttons.forEach((button, index) => {
-//     button.addEventListener("click", () => {
-//       activeSection(index);
-//     });
-//   });
-// }
+elementosDuvida.forEach(function (faq) {
+  faq.addEventListener("click", function () {
+    faq.classList.toggle("ativo");
+  });
+});
