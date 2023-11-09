@@ -1,0 +1,132 @@
+.section3 {
+  background-image: url("../assets/image\ 1.svg");
+  background-size: cover;
+  padding: 90px 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.section3 .inicioS3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+  align-self: stretch;
+  margin-top: -40px;
+}
+
+.section3 .inicioS3 h2 {
+  color: #303030;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.section3 .inicioS3 p {
+  flex: 1 0 0;
+  color: #303030;
+  font-family: Roboto Condensed;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 170.187%;
+  margin-bottom: 30px;
+}
+
+.section3 .finalS3 {
+  display: flex;
+  height: 349.879px;
+  padding: 7.155px;
+  justify-content: center;
+  align-items: center;
+  gap: 31.482px;
+  flex-flow: row nowrap;
+}
+
+.wrapper {
+  width: 870px;
+  overflow-x: hidden;
+  display: flex;
+  margin: 0 auto;
+}
+
+.setaE,
+.setaD {
+  position: absolute;
+  top: 2125px;
+  left: 450px;
+  right: auto;
+  bottom: 2500px;
+  cursor: pointer;
+}
+
+.setaD {
+  left: auto;
+  right: 450px;
+}
+
+.setaD:hover,
+.setaE:hover {
+  border-radius: 100px;
+  border: transparent;
+  background-color: #369fff;
+  transition: all 350ms ease-in-out;
+  fill-opacity: 1;
+}
+
+.section3 .finalS3 .cards {
+  display: flex;
+  padding: 7.155px 0px 9.271px 6.986px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 28.62px;
+  position: relative;
+}
+
+.card {
+  width: 260.89px;
+  height: 280.918px;
+  gap: 7.155px;
+  border-radius: 7.155px;
+  background: #fff;
+  box-shadow: 0px 2.86199px 4.29299px 0px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
+
+.current-card {
+  height: 314.85px;
+  width: 280px;
+}
+
+.section3 .finalS3 h3 {
+  color: #303030;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2.88px;
+  padding: 20px;
+}
+
+.section3 .finalS3 .card img {
+  margin-left: 20px;
+  position: relative;
+  bottom: 15px;
+}
+
+.section3 .finalS3 p {
+  padding: 16px;
+  color: #303030;
+  font-family: Roboto Condensed;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1;
+}
+
+.section3 .finalS3 span {
+  color: var(--primary-color, #369fff);
+  font-family: Roboto Condensed;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

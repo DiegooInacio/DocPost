@@ -1,0 +1,157 @@
+.vantagens1 {
+  margin: 0 300px 160px 300px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 26.697px;
+  background: rgba(54, 159, 255, 0.1);
+}
+
+.vantagens1 h2 {
+  width: 424;
+  color: #303030;
+  font-family: Roboto Condensed;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.vantagens1 p {
+  color: #303030;
+  font-family: Roboto Condensed;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 170%; /* 34px */
+  letter-spacing: 2.4px;
+  margin-bottom: 60px;
+}
+
+#gif {
+  display: flex;
+  width: 359.081px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.349px;
+}
+
+.slider {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  padding: 0px 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 347px;
+  margin-left: 3945px;
+  display: flex;
+}
+
+.slides input {
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.slide-first {
+  display: flex;
+  width: 424px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  right: 100px;
+}
+
+.slide {
+  display: flex;
+  width: 424px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 300px;
+  transition: 2s;
+  margin: 0 400px 0 -50px;
+}
+
+.slide h2 {
+  display: flex;
+  width: 424px;
+  position: relative;
+  bottom: 20px;
+}
+
+.navigation-manual {
+  position: absolute;
+  display: flex;
+  top: 1550px;
+  left: 1250px;
+  justify-content: center;
+}
+
+.manual-btn {
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background: #369fff;
+}
+
+#radio1:checked ~ .slide-first {
+  margin-left: -5%;
+}
+
+#radio2:checked ~ .slide-first {
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .slide-first {
+  margin-left: -45%;
+}
+
+input[type="radio"] {
+  position: relative;
+  top: 406px;
+  right: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 5px;
+  height: 5px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: #369fff;
+}
+
+input[type="radio"] {
+  background-color: #add8e6;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+.navigation-auto div {
+  border: 2px solid #369fff;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}

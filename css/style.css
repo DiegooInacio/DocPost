@@ -1,0 +1,13 @@
+@import "./header.css";
+@import "./section1.css";
+@import "./section2.css";
+@import "./vantagens.css";
+@import "./section3.css";
+@import "./section4.css";
+@import "./footer.css";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}

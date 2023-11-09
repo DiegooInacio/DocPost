@@ -42,9 +42,13 @@ controls.forEach((control) => {
 });
 
 const elementosDuvida = document.querySelectorAll(".faq");
+const imagem = document.querySelector(".rotacao");
+let rotation = 0;
 
 elementosDuvida.forEach(function (faq) {
   faq.addEventListener("click", function () {
     faq.classList.toggle("ativo");
+    rotation += 180;
+    imagem.style.transform = `rotate(${rotation}deg)`;
   });
 });
