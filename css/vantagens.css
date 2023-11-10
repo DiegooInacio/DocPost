@@ -1,5 +1,6 @@
 .vantagens1 {
-  margin: 0 300px 160px 300px;
+  width: 1080px;
+  margin: 0 auto 160px auto;
   display: flex;
   justify-content: space-between;
   border-radius: 26.697px;
@@ -91,7 +92,7 @@
 
 .navigation-manual {
   position: absolute;
-  display: flex;
+  display: none;
   top: 1550px;
   left: 1250px;
   justify-content: center;
@@ -113,21 +114,24 @@
 }
 
 #radio1:checked ~ .slide-first {
-  margin-left: -5%;
+  margin-left: -9%;
+  transition: 0.8s;
 }
 
 #radio2:checked ~ .slide-first {
-  margin-left: -25%;
+  margin-left: -30%;
+  transition: 0.8s;
 }
 
 #radio3:checked ~ .slide-first {
-  margin-left: -45%;
+  margin-left: -52%;
+  transition: 0.8s;
 }
 
 input[type="radio"] {
   position: relative;
   top: 406px;
-  right: 3px;
+  right: 120px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -135,14 +139,11 @@ input[type="radio"] {
   height: 5px;
   margin-right: 40px;
   border-radius: 50%;
+  background-color: #add8e6;
 }
 
 input[type="radio"]:checked {
   background-color: #369fff;
-}
-
-input[type="radio"] {
-  background-color: #add8e6;
 }
 
 .navigation-auto div:not(:last-child) {

@@ -1,0 +1,244 @@
+@media (max-width: 500px) {
+  header {
+    width: 360px;
+    margin: 10px auto 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+  }
+
+  .section1 {
+    position: relative;
+    width: 360px;
+    margin: 0 auto 203.0992px auto;
+    border-radius: 4px;
+  }
+
+  .section1 #bloco1 {
+    position: absolute;
+    left: 44px;
+    top: 122px;
+    display: flex;
+    width: 275px;
+    height: 257px;
+    padding: 13px;
+    border-radius: 4px;
+    background: #fff;
+    z-index: 100;
+  }
+
+  .section1 img {
+    width: 360px;
+    height: 235px;
+  }
+
+  #bloco1 h1 {
+    color: #303030;
+    font-family: Roboto Condensed;
+    font-size: 38.936px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    min-width: fit-content;
+  }
+
+  #bloco1 h1 span {
+    color: #369fff;
+    font-family: Roboto Condensed;
+    font-size: 38.936px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+  }
+
+  #bloco1 h2 {
+    color: #606060;
+    font-family: Roboto;
+    font-size: 12.758px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    min-width: fit-content;
+  }
+
+  #bloco1 h3 {
+    align-items: stretch;
+    color: #606060;
+    font-family: Roboto;
+    font-size: 12.56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+  }
+
+  #bloco1 button {
+    display: flex;
+    padding: 4.977px;
+    justify-content: center;
+    align-items: center;
+    gap: 4.977px;
+    align-self: stretch;
+    width: 100%;
+    min-width: fit-content;
+  }
+
+  .section2 {
+    width: 360px;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 60px;
+  }
+
+  .section2 #bloco2 {
+    width: 360px;
+  }
+
+  .section2 #bloco2 h2 {
+    font-size: 20px;
+  }
+
+  .section2 #bloco2 p {
+    font-size: 14px;
+  }
+
+  #bloco22 {
+    width: 360px;
+  }
+
+  #bloco22 .bloquinhos {
+    width: 169px;
+  }
+
+  .vantagens1 {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0 auto;
+  }
+  .slide,
+  .slide-first {
+    width: 360px;
+  }
+
+  .vantagens1 h2 {
+    width: 318px;
+    font-size: 20px;
+  }
+
+  .vantagens1 p {
+    width: 315px;
+    font-size: 14px;
+  }
+
+  #radio1:checked ~ .slide-first {
+    margin-left: -12%;
+    transition: 0.8s;
+  }
+
+  #radio2:checked ~ .slide-first {
+    margin-left: -30%;
+    transition: 0.8s;
+  }
+
+  #radio3:checked ~ .slide-first {
+    margin-left: -48%;
+    transition: 0.8s;
+  }
+
+  input[type="radio"] {
+    position: relative;
+    top: 406px;
+    right: 280px;
+    /* left: 0; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 5px;
+    height: 5px;
+    margin-right: 40px;
+    border-radius: 50%;
+  }
+
+  #gif {
+    margin: 0 auto 80px auto;
+    padding: 0;
+  }
+
+  .section3 {
+    margin-bottom: 15px;
+  }
+
+  .section3-margem {
+    width: 360px;
+  }
+
+  .section3 .inicioS3 h2 {
+    font-size: 20px;
+  }
+
+  .section3 .inicioS3 p {
+    font-size: 14px;
+  }
+
+  .setaE,
+  .setaD {
+    width: 80px;
+  }
+
+  .section4 {
+    width: 360px;
+  }
+
+  .section4 h2 {
+    font-size: 20px;
+  }
+
+  .section4 p {
+    font-size: 14px;
+  }
+
+  .faq {
+    width: 360px;
+  }
+
+  .flex {
+    padding: 7.784px 16.387px;
+    width: 360px;
+  }
+
+  .flex h3 {
+    font-size: 11.471px;
+    letter-spacing: 1.835px;
+    align-items: center;
+  }
+
+  .flex img {
+    width: 19.665px;
+    height: 19.665px;
+  }
+
+  .paragrafo {
+    width: 280px;
+  }
+
+  .faq.ativo .paragrafo {
+    margin-left: 40px;
+    margin-top: 0.5px;
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  .footerContainer {
+    width: 360px;
+    gap: 110px;
+  }
+
+  #copyright p {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+}

@@ -5,6 +5,7 @@
 @import "./section3.css";
 @import "./section4.css";
 @import "./footer.css";
+@import "./responsivemobile.css";
 
 * {
   margin: 0;

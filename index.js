@@ -11,6 +11,7 @@ const controls = document.querySelectorAll(".control");
 let currentCard = 1;
 const cards = document.querySelectorAll(".card");
 const maxCards = cards.length;
+const slider = document.querySelector(".finalS3");
 
 controls.forEach((control) => {
   control.addEventListener("click", () => {
@@ -36,6 +37,9 @@ controls.forEach((control) => {
       behavior: "smooth",
       block: "nearest",
     });
+    if (currentCard[3]) {
+      slider.scrollLeft += 10;
+    }
 
     cards[currentCard].classList.add("current-card");
   });

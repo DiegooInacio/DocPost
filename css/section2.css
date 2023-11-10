@@ -1,5 +1,6 @@
 .section2 {
-  margin: 0 300px 160px 300px;
+  width: 1080px;
+  margin: 0 auto 160px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -44,7 +45,7 @@
   border-radius: 12.448px;
 }
 
-#bloco22 #planejamento {
+#bloco22 .bloquinhos {
   display: flex;
   width: 185px;
   height: 165px;
@@ -57,13 +58,13 @@
   box-shadow: 0px 0px 11.14403px -2.78601px rgba(0, 0, 0, 0.3);
 }
 
-#bloco22 #planejamento img {
+#bloco22 .bloquinhos img {
   width: 29.253px;
   height: 34.825px;
   flex-shrink: 0;
 }
 
-#bloco22 #planejamento h3 {
+#bloco22 .bloquinhos h3 {
   align-self: stretch;
   color: #303030;
   font-family: Roboto;
@@ -71,65 +72,7 @@
   font-weight: 700;
 }
 
-#bloco22 #planejamento p {
-  width: 151.837px;
-  color: #303030;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-#bloco22 #confirmacao {
-  display: flex;
-  width: 186px;
-  height: 165px;
-  padding: 16.716px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6.965px;
-  border-radius: 9.751px;
-  background: #fff;
-  box-shadow: 0px 0px 11.14403px -2.78601px rgba(0, 0, 0, 0.3);
-}
-
-#bloco22 #confirmacao h3 {
-  align-self: stretch;
-  color: #303030;
-  font-family: Roboto;
-  font-size: 16.716px;
-  font-weight: 700;
-}
-
-#bloco22 #confirmacao p {
-  width: 151.837px;
-  color: #303030;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-#bloco22 .relatorio {
-  display: flex;
-  width: 185px;
-  height: 165px;
-  padding: 16.716px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6.965px;
-  border-radius: 9.751px;
-  background: #fff;
-  box-shadow: 0px 0px 11.14403px -2.78601px rgba(0, 0, 0, 0.3);
-}
-
-#bloco22 .relatorio h3 {
-  align-self: stretch;
-  color: #303030;
-  font-family: Roboto;
-  font-size: 16.716px;
-  font-weight: 700;
-}
-
-#bloco22 .relatorio p {
+#bloco22 .bloquinhos p {
   width: 151.837px;
   color: #303030;
   font-family: Roboto;
