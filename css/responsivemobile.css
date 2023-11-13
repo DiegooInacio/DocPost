@@ -149,14 +149,6 @@
     position: relative;
     top: 406px;
     right: 280px;
-    /* left: 0; */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 5px;
-    height: 5px;
-    margin-right: 40px;
-    border-radius: 50%;
   }
 
   #gif {

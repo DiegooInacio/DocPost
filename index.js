@@ -11,7 +11,6 @@ const controls = document.querySelectorAll(".control");
 let currentCard = 1;
 const cards = document.querySelectorAll(".card");
 const maxCards = cards.length;
-const slider = document.querySelector(".finalS3");
 
 controls.forEach((control) => {
   control.addEventListener("click", () => {
@@ -37,19 +36,16 @@ controls.forEach((control) => {
       behavior: "smooth",
       block: "nearest",
     });
-    if (currentCard[3]) {
-      slider.scrollLeft += 10;
-    }
-
     cards[currentCard].classList.add("current-card");
   });
 });
 
 const elementosDuvida = document.querySelectorAll(".faq");
-const imagem = document.querySelector(".rotacao");
-let rotation = 0;
 
 elementosDuvida.forEach(function (faq) {
+  const imagem = faq.querySelector(".rotacao");
+  let rotation = 0;
+
   faq.addEventListener("click", function () {
     faq.classList.toggle("ativo");
     rotation += 180;
